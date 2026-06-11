@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap');
+
+:root{
+    --yellow-theme-background-color:#1d1d1d;
+    --yellow-theme-main-color:#ffdd40;
+    --yellow-theme-sub-text-color:#ffffff;
+    --yellow-theme-nav-background-color:#181818;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: "Playwrite GB J", cursive;
+}
+html{
+    font-size: 62.5%;
+    height: 100%;
+}
+
+body{
+    background: var(--yellow-theme-background-color);
+    height: 100%;
+}
+#root{
+    height: 100%;
+}
